@@ -1,0 +1,86 @@
+.header {
+  background-image: url("../assets/img/backgound/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  &-nav {
+    padding: 20px 80px;
+    margin-bottom: 60px;
+    text-align: justify;
+    &::after {
+      content: "";
+      width: 100%;
+      display: inline-block;
+    }
+    &-logo {
+      display: inline-block;
+      img {
+        display: inline-block;
+        width: 18px;
+      }
+      h2 {
+        color: $primary-color;
+        display: inline-block;
+        font-size: 26px;
+      }
+    }
+    &-navbar {
+      display: inline-block;
+      ul {
+        li {
+          display: inline-block;
+          margin-left: 30px;
+          .diff {
+            color: $secondary-color;
+          }
+          a {
+            color: $primary-color;
+            text-decoration: none;
+            select {
+              border: 0;
+              color: $secondary-color-text;
+              width: 15px;
+            }
+          }
+          button {
+            color: white;
+            background-color: $secondary-color;
+            border: 0;
+            border-radius: 5px;
+            padding: 10px 15px;
+          }
+        }
+      }
+    }
+  }
+  &-info {
+    height: 600px;
+    margin: 20px 80px;
+    &-main {
+      width: 38%;
+      margin-top: 80px;
+      display: inline-block;
+      h1 {
+        color: $primary-color;
+      }
+      p {
+        color: $primary-color-text;
+        font-family: "Open Sans";
+        margin-top: 10px;
+      }
+      button {
+        background-color: $secondary-color;
+        border: 0;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 40px;
+        margin-top: 15px;
+        &::after {
+          content: " →";
+        }
+      }
+    }
+    &-img {
+      float: right;
+    }
+  }
+}

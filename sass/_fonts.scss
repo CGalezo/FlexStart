@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../assets/fonts/OpenSans/static/OpenSans/OpenSans-Bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans/static/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../assets/fonts/icons/icomoon.eot?rnk7av");
+  src: url("../assets/fonts/icons/icomoon.eot?rnk7av#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/icons/icomoon.ttf?rnk7av") format("truetype"),
+    url("../assets/fonts/icons/icomoon.woff?rnk7av") format("woff"),
+    url("../assets/fonts/icons/icomoon.svg?rnk7av#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

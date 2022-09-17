@@ -1,0 +1,14 @@
+.footer {
+  &-info {
+    &-main {
+      &-icons {
+        p {
+          .twitter:before {
+            font-family: "icomoon";
+            content: "\ea96";
+          }
+        }
+      }
+    }
+  }
+}

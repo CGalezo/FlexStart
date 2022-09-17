@@ -1,0 +1,132 @@
+.values {
+  &-title {
+    padding: 30px 0;
+    text-align: center;
+    h6 {
+      font-family: "Open Sans";
+      color: $secondary-color;
+    }
+    h2 {
+      color: $primary-color;
+    }
+  }
+  &-cards {
+    padding: 20px 80px;
+    text-align: justify;
+    &::after {
+      content: "";
+      width: 100%;
+      display: inline-block;
+    }
+    &-card {
+      text-align: center;
+      width: 340px;
+      display: inline-block;
+      img {
+        width: 250px;
+      }
+      h3 {
+        color: $primary-color;
+        font-size: 21px;
+        margin: 15px 0;
+      }
+      p {
+        font-family: "Open Sans";
+        color: $secondary-color-text;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.pricing {
+  padding: 20px 80px;
+  &-title {
+    padding: 30px 0;
+    text-align: center;
+    h6 {
+      font-family: "Open Sans";
+      color: $secondary-color;
+    }
+    h2 {
+      color: $primary-color;
+    }
+  }
+  &-cards {
+    text-align: justify;
+    &::after {
+      content: "";
+      width: 100%;
+      display: inline-block;
+    }
+    &-card {
+      -webkit-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.2);
+      -moz-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.2);
+      box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.2);
+      display: inline-block;
+      text-align: center;
+      &-free {
+        color: #03d4c1;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      &-starter {
+        color: #65c700;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      &-bussiness {
+        color: #fe911c;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      &-ultimate {
+        color: #fe0171;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      p{
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: $primary-color-text;
+        .dollar{
+          font-size: 20px;
+          position: relative;
+          bottom: 8px;
+        }
+        .mont{
+          font-family: 'Open Sans';
+          font-size: 16px;
+          color: #cdcccd;
+        }
+      }
+      img {
+        width: 60%;
+        margin-bottom: 40px;
+      }
+      ul {
+        list-style: none;
+        .no-included{
+          text-decoration: line-through;
+          color: #cdcccd;
+        }
+        li {
+          font-family: "Open Sans";
+          color: $secondary-color-text;
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+      }
+      button {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-family: "Open Sans";
+        background-color: white;
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+        border-radius: 20px;
+        padding: 10px 40px;
+      }
+    }
+  }
+}
