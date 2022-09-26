@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   &-nav {
-    padding: 20px 80px;
+    padding: 20px $margin-right-left;
     margin-bottom: 60px;
     text-align: justify;
     &::after {
@@ -54,7 +54,7 @@
   }
   &-info {
     height: 600px;
-    margin: 20px 80px;
+    margin: 20px $margin-right-left;
     &-main {
       width: 38%;
       margin-top: 80px;

@@ -11,7 +11,7 @@
     }
   }
   &-cards {
-    padding: 20px 80px;
+    padding: 20px $margin-right-left;
     text-align: justify;
     &::after {
       content: "";
@@ -40,7 +40,8 @@
 }
 
 .pricing {
-  padding: 20px 80px;
+  padding: 20px $margin-right-left;
+  
   &-title {
     padding: 30px 0;
     text-align: center;
@@ -53,6 +54,7 @@
     }
   }
   &-cards {
+    
     text-align: justify;
     &::after {
       content: "";
@@ -60,9 +62,9 @@
       display: inline-block;
     }
     &-card {
-      -webkit-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.2);
-      -moz-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.2);
-      box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.2);
+      -webkit-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.5);
+      -moz-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.5);
+      box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.5);
       display: inline-block;
       text-align: center;
       &-free {
@@ -128,5 +130,67 @@
         padding: 10px 40px;
       }
     }
+  }
+}
+
+.team{
+  padding: 20px $margin-right-left;
+
+  &-title {
+    padding: 30px 0;
+    text-align: center;
+    h6 {
+      font-family: "Open Sans";
+      color: $secondary-color;
+    }
+    h2 {
+      color: $primary-color;
+    }
+  }
+  &-cards {
+    
+    
+
+    text-align: justify;
+    &::after {
+      content: "";
+      width: 100%;
+      display: inline-block;
+    }
+    &-card {
+      -webkit-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.5);
+      -moz-box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.5);
+      box-shadow: 0px 0px 27px 2px rgba(212, 212, 212, 0.5);
+      display: inline-block;
+      text-align: center;
+      width: 23.5%;
+      img {
+        
+        border-radius: 3px;
+        width: 100%
+      }
+      
+      h3{
+        color: $primary-color;
+        margin-top: 10px;
+      }
+
+      h4{
+        color: #cdcccd;
+        font-family: "Open Sans";
+        margin-top: 8px;
+      }
+
+      p{
+        width: 85%;
+        color: $primary-color-text;
+        margin: 18px;
+        font-size: 12px;
+        line-height: 2;
+        font-style: italic;
+        font-family: "Open Sans";
+      }
+    }
+    
   }
 }
