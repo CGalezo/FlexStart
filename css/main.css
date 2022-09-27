@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("../assets/fonts/OpenSans/static/OpenSans/OpenSans-SemiBold.ttf");
+  src: url("../assets/fonts/OpenSans/static/OpenSans/OpenSans-Light.ttf");
 }
 @font-face {
   font-family: "Open Sans Light";
@@ -244,6 +244,7 @@
 
 .team {
   padding: 20px 150px;
+  margin-bottom: 60px;
 }
 .team-title {
   padding: 30px 0;
@@ -289,13 +290,137 @@
   width: 85%;
   color: #444545;
   margin: 18px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 2;
   font-style: italic;
   font-family: "Open Sans";
 }
 
+.footer-info {
+  padding: 60px 150px;
+  background-image: url("../assets/img/backgound/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  text-align: justify;
+  border: 1px solid #e0ecfe;
+  margin-bottom: 30px;
+}
+.footer-info::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+.footer-info-main {
+  vertical-align: top;
+  width: 40%;
+  display: inline-block;
+}
+.footer-info-main-logo {
+  display: inline-block;
+}
+.footer-info-main-logo img {
+  display: inline-block;
+  width: 18px;
+}
+.footer-info-main-logo h3 {
+  color: #002971;
+  display: inline-block;
+  font-size: 26px;
+}
+.footer-info-main-text {
+  color: #444545;
+}
+.footer-info-main-text p {
+  font-family: "Open Sans Light";
+  margin-top: 10px;
+  font-size: 14px;
+}
+.footer-info-main-icons {
+  margin-top: 10px;
+}
+.footer-info-main-icons p {
+  color: #8392b9;
+}
+.footer-info-main-icons p .twitter {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.footer-info-main-icons p .facebook {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.footer-info-main-icons p .instagram {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.footer-info-main-icons p .linkedin {
+  margin-right: 10px;
+  font-size: 24px;
+}
 .footer-info-main-icons p .twitter:before {
   font-family: "icomoon";
   content: "\ea96";
+}
+.footer-info-main-icons p .facebook:before {
+  font-family: "icomoon";
+  content: "\ea91";
+}
+.footer-info-main-icons p .instagram:before {
+  font-family: "icomoon";
+  content: "\ea92";
+}
+.footer-info-main-icons p .linkedin:before {
+  font-family: "icomoon";
+  content: "\eac9";
+}
+.footer-info-list {
+  display: inline-block;
+}
+.footer-info-list h4 {
+  color: #002971;
+}
+.footer-info-list li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.footer-info-list li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #002971;
+  font-family: "Open Sans Light";
+}
+.footer-info-contact {
+  vertical-align: top;
+  display: inline-block;
+}
+.footer-info-contact h4 {
+  color: #002971;
+}
+.footer-info-contact address {
+  width: 150px;
+  font-family: "Open Sans Light";
+  font-style: normal;
+  color: #444545;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+.footer-info-contact p {
+  font-size: 14px;
+  font-family: "Open Sans Light";
+  color: #444545;
+}
+.footer-copyright {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #002971;
+  font-family: "Open Sans Light";
+}
+.footer-copyright p .str {
+  font-weight: bolder;
+}
+.footer-copyright p .name {
+  color: #4152f0;
 }/*# sourceMappingURL=main.css.map */
